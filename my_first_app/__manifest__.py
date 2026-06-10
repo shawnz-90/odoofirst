@@ -4,7 +4,7 @@
     'summary': '这是一个用来向世界问好的专业自定义模块',
     'category': 'Custom',
     'author': '你的名字',
-    'depends': ['base'],       # 依赖 Odoo 的核心基础模块
+    'depends': ['base', 'contacts'],
     'data': [
         'views/views.xml',     # 告诉 Odoo 记得去加载你的界面文件
     ],
