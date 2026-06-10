@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="action_my_first_app" model="ir.actions.act_window">
+            <name>欢迎来到 Odoo 开发者世界</name>
+            <res_model>res.partner</res_model> 
+            <view_mode>kanban,list,form</view_mode>
+        </record>
+
+        <menuitem id="menu_my_first_app_root" name="我的加油站"/>
+
+        <menuitem id="menu_my_first_app_sub" name="开启探索" parent="menu_my_first_app_root" action="action_my_first_app"/>
+    </data>
+</odoo>
