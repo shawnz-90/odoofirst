@@ -6,7 +6,7 @@
         <field name="inherit_id" ref="sale.view_order_form"/>
         <field name="arch" type="xml">
             <xpath expr="//form" position="inside">
-                <!-- 在此添加字段或界面元素 -->
+                <field name="my_type"/>
             </xpath>
         </field>
     </record>
